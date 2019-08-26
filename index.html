@@ -1,28 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>RetirementApp</title>
+    <title>test</title>
+	<link rel="stylesheet" href="https://fonts.google.com/specimen/Playball?selection.family=Playball">
     <link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/7c00f7ec7a.js"></script>
+
 </head>
+
 <body>
-    <div class="container">
-      <div class="card">
-          <h1>Calculate</h1>
-      </div>
-      <div class="card">
-          <h1>hghjsdwj</h1>
-      </div>
-      <div class="card">
-          <h1>hghjsdwj</h1>
-      </div>
-      <div class="card">
-          <h1>hghjsdwj</h1>
-      </div>
-     
-     </div> 
-     
+    
+    <div class="topSection">
+        <h1>Retirement App</h1>
+        <h2>This App will help you develop a good habit towards saving and retiring early!
+            <br></h2>
+        <h2>Let's get started! </h2>
+    <!-- <section id="about"> -->
+        <div class="container">
+            <div class="card">
+                <p>Hello Friend!<br>use our 4% rule to calculate your retirement value</p>
+                <input id="a" type="text" placeholder=" Enter Total Expenditure Per Year"><br>
+                <br>
+                <button onclick="result()" type="submit">calculate</button>
+            </div>
+            <div class="card">
+                <p>Let's calculate your returns on Investments</p>
+                <input id="c" type="text" placeholder="Enter your interest rate/yr">
+                <br><input id="d" type="text" placeholder="Enter Total Savings/yr">
+                <br><button onclick="youtube()" type="submit">calculate</button>
+            </div>
+        
+            <div class="card">
+                <p>Do you know want to know How long it will take you to retire?<br> use this option!</p>
+                <input id="e" type="text" placeholder="Enter Total Savings/yr">
+                <input id="f" type="text" placeholder="Enter Total Expenditure/yr">
+                <button onclick="time()" type="submit">result</button>
+            </div>
+            <div class="card">
+                <p>Let's know how much you need before retiring.</p>
+                <input id="h" type="text" placeholder="Enter Total Expenditure/yr">
+                <input id="g" type="text" placeholder="How many years is left for you to retire?">
+                <button onclick="years()" type="submit">result</button>
+            </div>
+    </div>
+</div>
+   
+<section id="contact">
+        <h1 class="section-header2">Contact</h1>
+        <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook-square "></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square " ></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-square " ></i></a></li>
+        </ul>
+  </section>
+    
+    </div>
 </body>
+
+<script src="script.js"></script>
+
 </html>
