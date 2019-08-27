@@ -31,7 +31,7 @@ body{
     font-size: 23px;
     /* text-transform: capitalize; */
    /* /* margin-top: 200px; */
-   padding-top: 20px;
+   padding-top: 100px;
 }
 input{
     border-radius: 5px;
@@ -54,42 +54,59 @@ button{
 }
 
 #contact{
-	/* height: 100vh; */
-	/* background-color: #0B3238; */
 	background-size: cover;	
-	height: 40vh;
+	height: 10vh;
 	color:#fff;
+    
+}
+.social-media{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    margin-top: 1rem;
+    border-top: 1px solid rgba(0.0.0,.1);
+    
+    
 }
 .social-media i{
     font-size: 3rem;
     transition: color .5s;
 }
 .fa-facebook-square{
-    color:#3b5999;
+    color:#fff;
 }
 .fa-twitter-square{
-    color:#55acee;
+    color:#fff;
 }
 .fa-instagram{
-    color:#3b5999;
+    color:#fff;
 }
 .fa-google-plus-square{
-    color:#dd4b39;
+    color:#fff;
 }
 
 .fa-facebook-square:hover,
 .fa-twitter-square:hover,
 .fa-instagram:hover,
 .fa-google-plus-square:hover{
-    color:#45e19f;
+    color:#C58654;
 }
 
-.contact2 {
-margin-top: 50px;
-padding: 12px;
-color: #E5E1D8;
+.section-header2{
+    position: relative;
+    color:#fff; 
+    text-align: center;
 }
-.contact2 a{
-	color: #E5E1D8;
-
-}
+.section-header2::after {
+    content: "";
+    width: 15rem;
+    height: .4rem;
+    background-color:#ffffff;
+    position: absolute;
+    bottom:-1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius:5rem;
+     }
